@@ -17,7 +17,7 @@
                    "display": "WHO region"
                  }
                ],
-  "regions": [
+  "data": [
            {
              "dim": {
                       "PUBLISHSTATE": "Published",

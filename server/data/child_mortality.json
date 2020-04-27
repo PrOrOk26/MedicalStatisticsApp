@@ -25,7 +25,7 @@
                    "display": "Sex"
                  }
                ],
-  "fact": [
+  "data": [
            {
              "dim": {
                       "PUBLISHSTATE": "Published",

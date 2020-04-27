@@ -21,7 +21,7 @@
                    "display": "Country"
                  }
                ],
-  "countries": [
+  "data": [
            {
              "dim": {
                       "GHO": "Estimated number of people (all ages) living with HIV",
