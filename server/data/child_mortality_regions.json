@@ -1,0 +1,2966 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "SEX",
+                   "display": "Sex"
+                 }
+               ],
+  "fact": [
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "REGION": "Africa",
+                      "YEAR": "2018"
+                    },
+             "Value": "2738745"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Africa",
+                      "SEX": "Female",
+                      "YEAR": "2018",
+                      "GHO": "Number of under-five deaths (thousands)"
+                    },
+             "Value": "1244023"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "YEAR": "2018",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Africa"
+                    },
+             "Value": "1494722"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Americas",
+                      "SEX": "Both sexes",
+                      "YEAR": "2018",
+                      "GHO": "Number of under-five deaths (thousands)"
+                    },
+             "Value": "199732"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Female",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2018",
+                      "REGION": "Americas"
+                    },
+             "Value": "87529"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Americas",
+                      "YEAR": "2018"
+                    },
+             "Value": "112203"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2018",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "REGION": "Eastern Mediterranean"
+                    },
+             "Value": "829336"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Female",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2018",
+                      "REGION": "Eastern Mediterranean"
+                    },
+             "Value": "373180"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Eastern Mediterranean",
+                      "YEAR": "2018",
+                      "SEX": "Male"
+                    },
+             "Value": "456156"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Europe",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2018",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "96699"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Europe",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Female",
+                      "YEAR": "2018"
+                    },
+             "Value": "41915"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2018",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Male",
+                      "REGION": "Europe"
+                    },
+             "Value": "54784"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2018",
+                      "REGION": "Global"
+                    },
+             "Value": "5321518"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2018",
+                      "REGION": "Global",
+                      "SEX": "Female",
+                      "GHO": "Number of under-five deaths (thousands)"
+                    },
+             "Value": "2427368"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2018",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Global",
+                      "SEX": "Male"
+                    },
+             "Value": "2894150"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2018",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "1171033"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Female",
+                      "YEAR": "2018",
+                      "REGION": "South-East Asia"
+                    },
+             "Value": "557425"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2018"
+                    },
+             "Value": "613608"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2018",
+                      "REGION": "Western Pacific",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of under-five deaths (thousands)"
+                    },
+             "Value": "283095"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Western Pacific",
+                      "YEAR": "2018",
+                      "SEX": "Female",
+                      "GHO": "Number of under-five deaths (thousands)"
+                    },
+             "Value": "122052"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2018",
+                      "REGION": "Western Pacific",
+                      "SEX": "Male"
+                    },
+             "Value": "161043"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Africa",
+                      "SEX": "Both sexes",
+                      "YEAR": "2017",
+                      "GHO": "Number of under-five deaths (thousands)"
+                    },
+             "Value": "2781597"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Africa",
+                      "YEAR": "2017",
+                      "SEX": "Female",
+                      "GHO": "Number of under-five deaths (thousands)"
+                    },
+             "Value": "1264955"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "REGION": "Africa",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2017"
+                    },
+             "Value": "1516642"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Americas",
+                      "YEAR": "2017",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "206740"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2017",
+                      "REGION": "Americas",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Female"
+                    },
+             "Value": "90576"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Americas",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2017",
+                      "SEX": "Male"
+                    },
+             "Value": "116164"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2017",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Eastern Mediterranean"
+                    },
+             "Value": "847702"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Female",
+                      "YEAR": "2017",
+                      "GHO": "Number of under-five deaths (thousands)"
+                    },
+             "Value": "381913"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Male",
+                      "YEAR": "2017"
+                    },
+             "Value": "465789"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Europe",
+                      "YEAR": "2017",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "101699"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Female",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2017",
+                      "REGION": "Europe"
+                    },
+             "Value": "44047"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Europe",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Male",
+                      "YEAR": "2017"
+                    },
+             "Value": "57652"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "REGION": "Global",
+                      "YEAR": "2017"
+                    },
+             "Value": "5480743"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2017",
+                      "REGION": "Global",
+                      "SEX": "Female"
+                    },
+             "Value": "2504134"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2017",
+                      "REGION": "Global",
+                      "SEX": "Male"
+                    },
+             "Value": "2976609"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2017",
+                      "REGION": "South-East Asia"
+                    },
+             "Value": "1240020"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2017",
+                      "REGION": "South-East Asia",
+                      "SEX": "Female",
+                      "GHO": "Number of under-five deaths (thousands)"
+                    },
+             "Value": "592216"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2017"
+                    },
+             "Value": "647804"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2017",
+                      "REGION": "Western Pacific"
+                    },
+             "Value": "300041"
+           },
+           {
+             "dim": {
+                      "SEX": "Female",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Western Pacific",
+                      "YEAR": "2017",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "129152"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2017",
+                      "SEX": "Male",
+                      "REGION": "Western Pacific",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "170889"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2016",
+                      "REGION": "Africa",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "2824268"
+           },
+           {
+             "dim": {
+                      "REGION": "Africa",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2016",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "1285338"
+           },
+           {
+             "dim": {
+                      "REGION": "Africa",
+                      "YEAR": "2016",
+                      "SEX": "Male",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "1538930"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Americas",
+                      "SEX": "Both sexes",
+                      "YEAR": "2016",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "217169"
+           },
+           {
+             "dim": {
+                      "YEAR": "2016",
+                      "SEX": "Female",
+                      "REGION": "Americas",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "95316"
+           },
+           {
+             "dim": {
+                      "REGION": "Americas",
+                      "YEAR": "2016",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "121853"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "REGION": "Eastern Mediterranean",
+                      "YEAR": "2016",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "865942"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Eastern Mediterranean",
+                      "YEAR": "2016",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "390290"
+           },
+           {
+             "dim": {
+                      "SEX": "Male",
+                      "REGION": "Eastern Mediterranean",
+                      "YEAR": "2016",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "475652"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "REGION": "Europe",
+                      "YEAR": "2016",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "106822"
+           },
+           {
+             "dim": {
+                      "YEAR": "2016",
+                      "REGION": "Europe",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "46234"
+           },
+           {
+             "dim": {
+                      "REGION": "Europe",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2016",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "60588"
+           },
+           {
+             "dim": {
+                      "YEAR": "2016",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Global",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "5654005"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2016",
+                      "SEX": "Female",
+                      "REGION": "Global",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "2587529"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Male",
+                      "REGION": "Global",
+                      "YEAR": "2016",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "3066476"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2016",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "1318682"
+           },
+           {
+             "dim": {
+                      "SEX": "Female",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2016",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "632251"
+           },
+           {
+             "dim": {
+                      "YEAR": "2016",
+                      "REGION": "South-East Asia",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "686431"
+           },
+           {
+             "dim": {
+                      "YEAR": "2016",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Western Pacific",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "318115"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2016",
+                      "SEX": "Female",
+                      "REGION": "Western Pacific",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "136808"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2016",
+                      "REGION": "Western Pacific",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "181307"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2015",
+                      "REGION": "Africa",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "2870642"
+           },
+           {
+             "dim": {
+                      "YEAR": "2015",
+                      "SEX": "Female",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Africa",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "1308003"
+           },
+           {
+             "dim": {
+                      "REGION": "Africa",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2015",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "1562639"
+           },
+           {
+             "dim": {
+                      "REGION": "Americas",
+                      "YEAR": "2015",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "218226"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Female",
+                      "YEAR": "2015",
+                      "REGION": "Americas",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "95471"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2015",
+                      "SEX": "Male",
+                      "REGION": "Americas",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "122755"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2015",
+                      "SEX": "Both sexes",
+                      "REGION": "Eastern Mediterranean",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "882024"
+           },
+           {
+             "dim": {
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2015",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "398059"
+           },
+           {
+             "dim": {
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2015",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "483965"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2015",
+                      "REGION": "Europe",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "112076"
+           },
+           {
+             "dim": {
+                      "YEAR": "2015",
+                      "SEX": "Female",
+                      "REGION": "Europe",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "48500"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2015",
+                      "REGION": "Europe",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "63576"
+           },
+           {
+             "dim": {
+                      "YEAR": "2015",
+                      "REGION": "Global",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "5828265"
+           },
+           {
+             "dim": {
+                      "REGION": "Global",
+                      "YEAR": "2015",
+                      "SEX": "Female",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "2672606"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Male",
+                      "YEAR": "2015",
+                      "REGION": "Global",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "3155659"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2015",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "1405311"
+           },
+           {
+             "dim": {
+                      "REGION": "South-East Asia",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2015",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "676515"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2015",
+                      "REGION": "South-East Asia",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "728796"
+           },
+           {
+             "dim": {
+                      "YEAR": "2015",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "REGION": "Western Pacific",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "336927"
+           },
+           {
+             "dim": {
+                      "REGION": "Western Pacific",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2015",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "144736"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Male",
+                      "YEAR": "2015",
+                      "REGION": "Western Pacific",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "192191"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "REGION": "Africa",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2014",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "2917234"
+           },
+           {
+             "dim": {
+                      "YEAR": "2014",
+                      "SEX": "Female",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Africa",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "1330557"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Africa",
+                      "YEAR": "2014",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "1586677"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2014",
+                      "SEX": "Both sexes",
+                      "REGION": "Americas",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "224190"
+           },
+           {
+             "dim": {
+                      "SEX": "Female",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Americas",
+                      "YEAR": "2014",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "97949"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Americas",
+                      "YEAR": "2014",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "126241"
+           },
+           {
+             "dim": {
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2014",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "897679"
+           },
+           {
+             "dim": {
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2014",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "405571"
+           },
+           {
+             "dim": {
+                      "YEAR": "2014",
+                      "SEX": "Male",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Eastern Mediterranean",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "492108"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2014",
+                      "SEX": "Both sexes",
+                      "REGION": "Europe",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "117240"
+           },
+           {
+             "dim": {
+                      "SEX": "Female",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2014",
+                      "REGION": "Europe",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "50718"
+           },
+           {
+             "dim": {
+                      "REGION": "Europe",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2014",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "66522"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "REGION": "Global",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2014",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "6016433"
+           },
+           {
+             "dim": {
+                      "REGION": "Global",
+                      "YEAR": "2014",
+                      "SEX": "Female",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "2764386"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2014",
+                      "REGION": "Global",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "3252047"
+           },
+           {
+             "dim": {
+                      "YEAR": "2014",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "REGION": "South-East Asia",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "1501624"
+           },
+           {
+             "dim": {
+                      "REGION": "South-East Asia",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2014",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "725807"
+           },
+           {
+             "dim": {
+                      "SEX": "Male",
+                      "YEAR": "2014",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "South-East Asia",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "775817"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2014",
+                      "REGION": "Western Pacific",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "355371"
+           },
+           {
+             "dim": {
+                      "REGION": "Western Pacific",
+                      "YEAR": "2014",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "152459"
+           },
+           {
+             "dim": {
+                      "YEAR": "2014",
+                      "REGION": "Western Pacific",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "202912"
+           },
+           {
+             "dim": {
+                      "YEAR": "2013",
+                      "SEX": "Both sexes",
+                      "REGION": "Africa",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "2967728"
+           },
+           {
+             "dim": {
+                      "REGION": "Africa",
+                      "SEX": "Female",
+                      "YEAR": "2013",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "1354796"
+           },
+           {
+             "dim": {
+                      "REGION": "Africa",
+                      "YEAR": "2013",
+                      "SEX": "Male",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "1612932"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Americas",
+                      "YEAR": "2013",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "231496"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Americas",
+                      "SEX": "Female",
+                      "YEAR": "2013",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "101150"
+           },
+           {
+             "dim": {
+                      "YEAR": "2013",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "Americas",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "130346"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2013",
+                      "REGION": "Eastern Mediterranean",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "912589"
+           },
+           {
+             "dim": {
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Female",
+                      "YEAR": "2013",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "412894"
+           },
+           {
+             "dim": {
+                      "REGION": "Eastern Mediterranean",
+                      "YEAR": "2013",
+                      "SEX": "Male",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "499695"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2013",
+                      "REGION": "Europe",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "122181"
+           },
+           {
+             "dim": {
+                      "REGION": "Europe",
+                      "YEAR": "2013",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "52862"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2013",
+                      "SEX": "Male",
+                      "REGION": "Europe",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "69319"
+           },
+           {
+             "dim": {
+                      "REGION": "Global",
+                      "YEAR": "2013",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "6219259"
+           },
+           {
+             "dim": {
+                      "SEX": "Female",
+                      "REGION": "Global",
+                      "YEAR": "2013",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "2863323"
+           },
+           {
+             "dim": {
+                      "REGION": "Global",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "YEAR": "2013",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "3355936"
+           },
+           {
+             "dim": {
+                      "REGION": "South-East Asia",
+                      "YEAR": "2013",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "1607373"
+           },
+           {
+             "dim": {
+                      "REGION": "South-East Asia",
+                      "SEX": "Female",
+                      "YEAR": "2013",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "779723"
+           },
+           {
+             "dim": {
+                      "SEX": "Male",
+                      "YEAR": "2013",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "REGION": "South-East Asia",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "827650"
+           },
+           {
+             "dim": {
+                      "YEAR": "2013",
+                      "REGION": "Western Pacific",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "374778"
+           },
+           {
+             "dim": {
+                      "YEAR": "2013",
+                      "REGION": "Western Pacific",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "160575"
+           },
+           {
+             "dim": {
+                      "YEAR": "2013",
+                      "SEX": "Male",
+                      "REGION": "Western Pacific",
+                      "GHO": "Number of under-five deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "214203"
+           },
+           {
+             "dim": {
+                      "REGION": "Africa",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2018",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "1889449"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Africa",
+                      "SEX": "Female",
+                      "YEAR": "2018",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "835604"
+           },
+           {
+             "dim": {
+                      "REGION": "Africa",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2018",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "1053845"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2018",
+                      "REGION": "Americas",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "170266"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2018",
+                      "SEX": "Female",
+                      "REGION": "Americas",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "74281"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Americas",
+                      "YEAR": "2018",
+                      "SEX": "Male",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "95985"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2018",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Eastern Mediterranean"
+                    },
+             "Value": "660163"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2018",
+                      "SEX": "Female",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Eastern Mediterranean"
+                    },
+             "Value": "289505"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Eastern Mediterranean",
+                      "YEAR": "2018"
+                    },
+             "Value": "370658"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Europe",
+                      "YEAR": "2018"
+                    },
+             "Value": "83439"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2018",
+                      "SEX": "Female",
+                      "REGION": "Europe"
+                    },
+             "Value": "36039"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2018",
+                      "SEX": "Male",
+                      "REGION": "Europe",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "47400"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "REGION": "Global",
+                      "YEAR": "2018",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "4000115"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2018",
+                      "SEX": "Female",
+                      "REGION": "Global",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "1785777"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Global",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Male",
+                      "YEAR": "2018"
+                    },
+             "Value": "2214338"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "South-East Asia",
+                      "SEX": "Both sexes",
+                      "YEAR": "2018"
+                    },
+             "Value": "960285"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2018",
+                      "SEX": "Female",
+                      "REGION": "South-East Asia"
+                    },
+             "Value": "448156"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2018",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "512129"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Western Pacific",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2018",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "234053"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Western Pacific",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2018",
+                      "SEX": "Female"
+                    },
+             "Value": "101111"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Western Pacific",
+                      "YEAR": "2018"
+                    },
+             "Value": "132942"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Africa",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2017",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "1911004"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Africa",
+                      "YEAR": "2017",
+                      "SEX": "Female"
+                    },
+             "Value": "845371"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2017",
+                      "REGION": "Africa"
+                    },
+             "Value": "1065633"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2017",
+                      "SEX": "Both sexes",
+                      "REGION": "Americas"
+                    },
+             "Value": "176118"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Americas",
+                      "YEAR": "2017",
+                      "SEX": "Female"
+                    },
+             "Value": "76807"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2017",
+                      "REGION": "Americas"
+                    },
+             "Value": "99311"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2017"
+                    },
+             "Value": "673233"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Female",
+                      "YEAR": "2017",
+                      "REGION": "Eastern Mediterranean"
+                    },
+             "Value": "295536"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2017",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Male",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "377697"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2017",
+                      "SEX": "Both sexes",
+                      "REGION": "Europe",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "87821"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Female",
+                      "REGION": "Europe",
+                      "YEAR": "2017"
+                    },
+             "Value": "37904"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2017",
+                      "SEX": "Male",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Europe"
+                    },
+             "Value": "49917"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2017",
+                      "SEX": "Both sexes",
+                      "REGION": "Global"
+                    },
+             "Value": "4109700"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2017",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Global",
+                      "SEX": "Female"
+                    },
+             "Value": "1836825"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2017",
+                      "SEX": "Male",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Global"
+                    },
+             "Value": "2272875"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2017",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "1010617"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "South-East Asia",
+                      "SEX": "Female",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2017"
+                    },
+             "Value": "473072"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "South-East Asia",
+                      "SEX": "Male",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2017"
+                    },
+             "Value": "537545"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2017",
+                      "SEX": "Both sexes",
+                      "REGION": "Western Pacific"
+                    },
+             "Value": "248392"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2017",
+                      "SEX": "Female",
+                      "REGION": "Western Pacific"
+                    },
+             "Value": "107031"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2017",
+                      "SEX": "Male",
+                      "REGION": "Western Pacific"
+                    },
+             "Value": "141361"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2016",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Africa"
+                    },
+             "Value": "1932362"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2016",
+                      "SEX": "Female",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Africa"
+                    },
+             "Value": "855527"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "REGION": "Africa",
+                      "YEAR": "2016",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "1076835"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Americas",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2016"
+                    },
+             "Value": "184987"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Americas",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2016",
+                      "SEX": "Female"
+                    },
+             "Value": "80810"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Americas",
+                      "SEX": "Male",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2016"
+                    },
+             "Value": "104177"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Eastern Mediterranean",
+                      "YEAR": "2016",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "685947"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2016",
+                      "SEX": "Female",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "300978"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2016",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Male"
+                    },
+             "Value": "384969"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2016",
+                      "SEX": "Both sexes",
+                      "REGION": "Europe",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "92328"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Female",
+                      "REGION": "Europe",
+                      "YEAR": "2016"
+                    },
+             "Value": "39808"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Europe",
+                      "YEAR": "2016",
+                      "SEX": "Male"
+                    },
+             "Value": "52520"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Global",
+                      "YEAR": "2016",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "4229089"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Global",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Female",
+                      "YEAR": "2016"
+                    },
+             "Value": "1892396"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2016",
+                      "REGION": "Global",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Male"
+                    },
+             "Value": "2336693"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2016",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "1067125"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "South-East Asia",
+                      "SEX": "Female",
+                      "YEAR": "2016",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "500585"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2016",
+                      "REGION": "South-East Asia"
+                    },
+             "Value": "566540"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2016",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Western Pacific"
+                    },
+             "Value": "263772"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Western Pacific",
+                      "SEX": "Female",
+                      "YEAR": "2016",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "113561"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2016",
+                      "SEX": "Male",
+                      "REGION": "Western Pacific",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "150211"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2015",
+                      "SEX": "Both sexes",
+                      "REGION": "Africa"
+                    },
+             "Value": "1953506"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2015",
+                      "REGION": "Africa",
+                      "SEX": "Female"
+                    },
+             "Value": "865283"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "REGION": "Africa",
+                      "YEAR": "2015",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "1088223"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "REGION": "Americas",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2015"
+                    },
+             "Value": "185469"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Female",
+                      "REGION": "Americas",
+                      "YEAR": "2015"
+                    },
+             "Value": "80725"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Male",
+                      "YEAR": "2015",
+                      "REGION": "Americas"
+                    },
+             "Value": "104744"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2015",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "697078"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Female",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2015"
+                    },
+             "Value": "306150"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2015",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Male"
+                    },
+             "Value": "390928"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2015",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Europe",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "96942"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Europe",
+                      "YEAR": "2015",
+                      "SEX": "Female"
+                    },
+             "Value": "41792"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Europe",
+                      "SEX": "Male",
+                      "YEAR": "2015"
+                    },
+             "Value": "55150"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Global",
+                      "YEAR": "2015",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "4344235"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Female",
+                      "REGION": "Global",
+                      "YEAR": "2015",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "1946184"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2015",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Male",
+                      "REGION": "Global"
+                    },
+             "Value": "2398051"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "South-East Asia",
+                      "SEX": "Both sexes",
+                      "YEAR": "2015",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "1128842"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "South-East Asia",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2015",
+                      "SEX": "Female"
+                    },
+             "Value": "530865"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2015",
+                      "SEX": "Male",
+                      "REGION": "South-East Asia",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "597977"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2015",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Western Pacific",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "279785"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2015",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Western Pacific",
+                      "SEX": "Female"
+                    },
+             "Value": "120219"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Western Pacific",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2015",
+                      "SEX": "Male"
+                    },
+             "Value": "159566"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Africa",
+                      "YEAR": "2014",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "1975253"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Female",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Africa",
+                      "YEAR": "2014"
+                    },
+             "Value": "875620"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "YEAR": "2014",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Africa"
+                    },
+             "Value": "1099633"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Americas",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2014"
+                    },
+             "Value": "190312"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Female",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Americas",
+                      "YEAR": "2014"
+                    },
+             "Value": "82700"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Americas",
+                      "SEX": "Male",
+                      "YEAR": "2014"
+                    },
+             "Value": "107612"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2014",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Eastern Mediterranean"
+                    },
+             "Value": "707408"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Female",
+                      "REGION": "Eastern Mediterranean",
+                      "YEAR": "2014",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "310789"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2014",
+                      "SEX": "Male",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "396619"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2014",
+                      "REGION": "Europe"
+                    },
+             "Value": "101456"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Europe",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Female",
+                      "YEAR": "2014"
+                    },
+             "Value": "43724"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Europe",
+                      "SEX": "Male",
+                      "YEAR": "2014",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "57732"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "REGION": "Global",
+                      "YEAR": "2014"
+                    },
+             "Value": "4470235"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Global",
+                      "SEX": "Female",
+                      "YEAR": "2014"
+                    },
+             "Value": "2005214"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Global",
+                      "YEAR": "2014",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Male"
+                    },
+             "Value": "2465021"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2014",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "1197170"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2014",
+                      "SEX": "Female",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "564305"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2014",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Male",
+                      "REGION": "South-East Asia"
+                    },
+             "Value": "632865"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2014",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Western Pacific",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "295991"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2014",
+                      "REGION": "Western Pacific",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Female"
+                    },
+             "Value": "126916"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Western Pacific",
+                      "SEX": "Male",
+                      "YEAR": "2014"
+                    },
+             "Value": "169075"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "YEAR": "2013",
+                      "REGION": "Africa",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "1998064"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Africa",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Female",
+                      "YEAR": "2013"
+                    },
+             "Value": "886102"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Africa",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Male",
+                      "YEAR": "2013"
+                    },
+             "Value": "1111962"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Americas",
+                      "SEX": "Both sexes",
+                      "YEAR": "2013"
+                    },
+             "Value": "196352"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2013",
+                      "REGION": "Americas",
+                      "SEX": "Female",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "85331"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Male",
+                      "YEAR": "2013",
+                      "REGION": "Americas"
+                    },
+             "Value": "111021"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2013"
+                    },
+             "Value": "716989"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2013",
+                      "SEX": "Female",
+                      "REGION": "Eastern Mediterranean"
+                    },
+             "Value": "315316"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2013",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Male"
+                    },
+             "Value": "401673"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Europe",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "YEAR": "2013",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "105754"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Female",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Europe",
+                      "YEAR": "2013"
+                    },
+             "Value": "45582"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "REGION": "Europe",
+                      "YEAR": "2013",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "60172"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Global",
+                      "SEX": "Both sexes",
+                      "YEAR": "2013"
+                    },
+             "Value": "4604608"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2013",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Global",
+                      "SEX": "Female"
+                    },
+             "Value": "2068318"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Global",
+                      "YEAR": "2013",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Male"
+                    },
+             "Value": "2536290"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2013"
+                    },
+             "Value": "1272041"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "South-East Asia",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "SEX": "Female",
+                      "YEAR": "2013"
+                    },
+             "Value": "600916"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2013",
+                      "SEX": "Male",
+                      "GHO": "Number of infant deaths (thousands)"
+                    },
+             "Value": "671125"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2013",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Western Pacific",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "312746"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Western Pacific",
+                      "YEAR": "2013",
+                      "SEX": "Female"
+                    },
+             "Value": "133906"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Number of infant deaths (thousands)",
+                      "REGION": "Western Pacific",
+                      "SEX": "Male",
+                      "YEAR": "2013"
+                    },
+             "Value": "178840"
+           },
+           {
+             "dim": {
+                      "YEAR": "2018",
+                      "REGION": "Africa",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "1006494"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "REGION": "Americas",
+                      "YEAR": "2018",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "109826"
+           },
+           {
+             "dim": {
+                      "YEAR": "2018",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "464473"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "REGION": "Europe",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "YEAR": "2018",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "50734"
+           },
+           {
+             "dim": {
+                      "REGION": "Global",
+                      "YEAR": "2018",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "2475924"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "YEAR": "2018",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "REGION": "South-East Asia",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "703569"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "YEAR": "2018",
+                      "SEX": "Both sexes",
+                      "REGION": "Western Pacific",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "139280"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "YEAR": "2017",
+                      "REGION": "Africa",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "1011714"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2017",
+                      "REGION": "Americas",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "113213"
+           },
+           {
+             "dim": {
+                      "YEAR": "2017",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "REGION": "Eastern Mediterranean",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "472962"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "YEAR": "2017",
+                      "REGION": "Europe",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "53237"
+           },
+           {
+             "dim": {
+                      "REGION": "Global",
+                      "SEX": "Both sexes",
+                      "YEAR": "2017",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "2537500"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "REGION": "South-East Asia",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "YEAR": "2017",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "736850"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "REGION": "Western Pacific",
+                      "YEAR": "2017",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "147938"
+           },
+           {
+             "dim": {
+                      "REGION": "Africa",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "YEAR": "2016",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "1015957"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "REGION": "Americas",
+                      "SEX": "Both sexes",
+                      "YEAR": "2016",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "118855"
+           },
+           {
+             "dim": {
+                      "YEAR": "2016",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "480192"
+           },
+           {
+             "dim": {
+                      "YEAR": "2016",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "REGION": "Europe",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "56040"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "YEAR": "2016",
+                      "REGION": "Global",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "2603364"
+           },
+           {
+             "dim": {
+                      "YEAR": "2016",
+                      "REGION": "South-East Asia",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "773324"
+           },
+           {
+             "dim": {
+                      "REGION": "Western Pacific",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "YEAR": "2016",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "157372"
+           },
+           {
+             "dim": {
+                      "REGION": "Africa",
+                      "YEAR": "2015",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "1020278"
+           },
+           {
+             "dim": {
+                      "YEAR": "2015",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "REGION": "Americas",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "120324"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "YEAR": "2015",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "486879"
+           },
+           {
+             "dim": {
+                      "YEAR": "2015",
+                      "REGION": "Europe",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "59024"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "YEAR": "2015",
+                      "REGION": "Global",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "2668852"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2015",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "813393"
+           },
+           {
+             "dim": {
+                      "REGION": "Western Pacific",
+                      "YEAR": "2015",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "167299"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "REGION": "Africa",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "YEAR": "2014",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "1024832"
+           },
+           {
+             "dim": {
+                      "REGION": "Americas",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "YEAR": "2014",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "121868"
+           },
+           {
+             "dim": {
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "YEAR": "2014",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "492824"
+           },
+           {
+             "dim": {
+                      "YEAR": "2014",
+                      "REGION": "Europe",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "62016"
+           },
+           {
+             "dim": {
+                      "REGION": "Global",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "YEAR": "2014",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "2736699"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2014",
+                      "REGION": "South-East Asia",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "855873"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "REGION": "Western Pacific",
+                      "YEAR": "2014",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "177607"
+           },
+           {
+             "dim": {
+                      "REGION": "Africa",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2013",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "1029773"
+           },
+           {
+             "dim": {
+                      "YEAR": "2013",
+                      "REGION": "Americas",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "125072"
+           },
+           {
+             "dim": {
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "REGION": "Eastern Mediterranean",
+                      "YEAR": "2013",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "498030"
+           },
+           {
+             "dim": {
+                      "REGION": "Europe",
+                      "YEAR": "2013",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "64910"
+           },
+           {
+             "dim": {
+                      "REGION": "Global",
+                      "YEAR": "2013",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "2810759"
+           },
+           {
+             "dim": {
+                      "YEAR": "2013",
+                      "REGION": "South-East Asia",
+                      "SEX": "Both sexes",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "902825"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "YEAR": "2013",
+                      "REGION": "Western Pacific",
+                      "GHO": "Number of neonatal deaths (thousands)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "188455"
+           }
+          ]
+}

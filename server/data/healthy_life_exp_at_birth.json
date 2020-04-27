@@ -1,0 +1,2126 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "SEX",
+                   "display": "Sex"
+                 }
+               ],
+  "fact": [
+           {
+             "dim": {
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2005",
+                      "REGION": "South-East Asia",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "56.3"
+           },
+           {
+             "dim": {
+                      "SEX": "Female",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2000",
+                      "REGION": "Africa",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "45.3"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Africa",
+                      "SEX": "Female",
+                      "YEAR": "2010",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "51.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Americas",
+                      "YEAR": "2016",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Female"
+                    },
+             "Value": "69.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2005",
+                      "SEX": "Female"
+                    },
+             "Value": "57.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Female",
+                      "YEAR": "2005",
+                      "REGION": "Europe",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)"
+                    },
+             "Value": "68.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2015",
+                      "SEX": "Female",
+                      "REGION": "Europe"
+                    },
+             "Value": "70.5"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2000",
+                      "REGION": "Global",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "59.9"
+           },
+           {
+             "dim": {
+                      "REGION": "Global",
+                      "YEAR": "2010",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "63.1"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Western Pacific",
+                      "YEAR": "2016",
+                      "SEX": "Female",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)"
+                    },
+             "Value": "70.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Africa",
+                      "YEAR": "2005",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)"
+                    },
+             "Value": "46.7"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2005",
+                      "REGION": "Americas"
+                    },
+             "Value": "66.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "YEAR": "2015",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Americas"
+                    },
+             "Value": "67.4"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Both sexes",
+                      "YEAR": "2000"
+                    },
+             "Value": "56.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Europe",
+                      "YEAR": "2000",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "64.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2010",
+                      "REGION": "Europe",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "66.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2016",
+                      "REGION": "South-East Asia"
+                    },
+             "Value": "60.4"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Global",
+                      "YEAR": "2005",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "60.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Western Pacific",
+                      "YEAR": "2005",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "66.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "YEAR": "2015",
+                      "REGION": "Western Pacific",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)"
+                    },
+             "Value": "68.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2000",
+                      "REGION": "Africa",
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "10.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Americas",
+                      "YEAR": "2000",
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "14.8"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2010",
+                      "SEX": "Male",
+                      "REGION": "Americas",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "15.8"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2005",
+                      "REGION": "Global",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "58.7"
+           },
+           {
+             "dim": {
+                      "YEAR": "2015",
+                      "REGION": "Global",
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "61.7"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Africa",
+                      "SEX": "Male",
+                      "YEAR": "2005",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "46.0"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Africa",
+                      "YEAR": "2015",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "52.1"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Male",
+                      "YEAR": "2000",
+                      "REGION": "Eastern Mediterranean",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "55.8"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2010",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "58.1"
+           },
+           {
+             "dim": {
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2016",
+                      "REGION": "Europe",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "66.1"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Eastern Mediterranean",
+                      "YEAR": "2016",
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "13.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2005",
+                      "SEX": "Male",
+                      "REGION": "Europe",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "14.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2015"
+                    },
+             "Value": "12.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2000",
+                      "REGION": "Global",
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "13.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2000",
+                      "REGION": "Western Pacific"
+                    },
+             "Value": "14.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2010",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "Western Pacific",
+                      "SEX": "Male"
+                    },
+             "Value": "15.1"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Africa",
+                      "YEAR": "2016",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Female"
+                    },
+             "Value": "13.1"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Americas",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2005",
+                      "SEX": "Female"
+                    },
+             "Value": "17.8"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2015",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Female",
+                      "REGION": "Eastern Mediterranean"
+                    },
+             "Value": "13.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Europe",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Female",
+                      "YEAR": "2000"
+                    },
+             "Value": "16.7"
+           },
+           {
+             "dim": {
+                      "REGION": "Europe",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2016",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "17.4"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "YEAR": "2005",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "South-East Asia"
+                    },
+             "Value": "12.2"
+           },
+           {
+             "dim": {
+                      "REGION": "South-East Asia",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2000",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "12.4"
+           },
+           {
+             "dim": {
+                      "REGION": "South-East Asia",
+                      "SEX": "Female",
+                      "YEAR": "2010",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "13.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Female",
+                      "REGION": "Global",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2016"
+                    },
+             "Value": "16.8"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Western Pacific",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2005",
+                      "SEX": "Female"
+                    },
+             "Value": "16.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2015",
+                      "REGION": "Africa",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "12.4"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2000",
+                      "REGION": "Americas",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "16.2"
+           },
+           {
+             "dim": {
+                      "YEAR": "2000",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "12.4"
+           },
+           {
+             "dim": {
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2010",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "13.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Global",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2015",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "15.7"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "Western Pacific",
+                      "YEAR": "2000",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "15.3"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Africa",
+                      "YEAR": "2010",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "49.6"
+           },
+           {
+             "dim": {
+                      "YEAR": "2016",
+                      "REGION": "Africa",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "52.6"
+           },
+           {
+             "dim": {
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2005",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "56.4"
+           },
+           {
+             "dim": {
+                      "YEAR": "2015",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Male",
+                      "REGION": "Eastern Mediterranean",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "58.8"
+           },
+           {
+             "dim": {
+                      "YEAR": "2015",
+                      "SEX": "Male",
+                      "REGION": "Europe",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "65.7"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Male",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2000",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "54.5"
+           },
+           {
+             "dim": {
+                      "YEAR": "2010",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Male",
+                      "REGION": "Global",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "60.4"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2016",
+                      "REGION": "Global",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "62.0"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Female",
+                      "YEAR": "2005",
+                      "REGION": "Africa",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "47.4"
+           },
+           {
+             "dim": {
+                      "YEAR": "2015",
+                      "SEX": "Female",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Africa",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "54.4"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Americas",
+                      "SEX": "Female",
+                      "YEAR": "2015"
+                    },
+             "Value": "69.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Female",
+                      "YEAR": "2000",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)"
+                    },
+             "Value": "56.8"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Female",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2010",
+                      "REGION": "Europe"
+                    },
+             "Value": "69.5"
+           },
+           {
+             "dim": {
+                      "REGION": "Europe",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2016"
+                    },
+             "Value": "70.7"
+           },
+           {
+             "dim": {
+                      "REGION": "Global",
+                      "SEX": "Female",
+                      "YEAR": "2005",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "61.3"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2015",
+                      "REGION": "Global",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "64.5"
+           },
+           {
+             "dim": {
+                      "YEAR": "2015",
+                      "REGION": "Western Pacific",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "69.8"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Africa",
+                      "SEX": "Both sexes",
+                      "YEAR": "2000",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "44.4"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2010",
+                      "REGION": "Americas",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "66.3"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Americas",
+                      "YEAR": "2016",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "67.5"
+           },
+           {
+             "dim": {
+                      "YEAR": "2005",
+                      "SEX": "Both sexes",
+                      "REGION": "Europe",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "65.1"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Europe",
+                      "SEX": "Both sexes",
+                      "YEAR": "2015",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)"
+                    },
+             "Value": "68.1"
+           },
+           {
+             "dim": {
+                      "YEAR": "2015",
+                      "SEX": "Both sexes",
+                      "REGION": "South-East Asia",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "60.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2000",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Global",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "58.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2010",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Western Pacific",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "67.8"
+           },
+           {
+             "dim": {
+                      "REGION": "Western Pacific",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2016",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "68.9"
+           },
+           {
+             "dim": {
+                      "REGION": "Americas",
+                      "YEAR": "2005",
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "15.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2015",
+                      "SEX": "Male",
+                      "REGION": "Americas"
+                    },
+             "Value": "16.2"
+           },
+           {
+             "dim": {
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2015",
+                      "REGION": "Eastern Mediterranean",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "12.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "YEAR": "2000",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "Europe"
+                    },
+             "Value": "13.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2010",
+                      "REGION": "South-East Asia",
+                      "SEX": "Male"
+                    },
+             "Value": "12.2"
+           },
+           {
+             "dim": {
+                      "REGION": "South-East Asia",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Male",
+                      "YEAR": "2016",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "12.7"
+           },
+           {
+             "dim": {
+                      "YEAR": "2005",
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "Western Pacific",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "14.8"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Male",
+                      "REGION": "Western Pacific",
+                      "YEAR": "2015"
+                    },
+             "Value": "15.5"
+           },
+           {
+             "dim": {
+                      "REGION": "Africa",
+                      "SEX": "Female",
+                      "YEAR": "2015",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "13.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Americas",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2000",
+                      "SEX": "Female"
+                    },
+             "Value": "17.4"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2010",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Female",
+                      "REGION": "Eastern Mediterranean"
+                    },
+             "Value": "13.3"
+           },
+           {
+             "dim": {
+                      "YEAR": "2016",
+                      "SEX": "Female",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "Eastern Mediterranean",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "13.6"
+           },
+           {
+             "dim": {
+                      "SEX": "Female",
+                      "REGION": "South-East Asia",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2005",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "12.7"
+           },
+           {
+             "dim": {
+                      "SEX": "Female",
+                      "YEAR": "2015",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "South-East Asia",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "13.7"
+           },
+           {
+             "dim": {
+                      "SEX": "Female",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2015",
+                      "REGION": "Global",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "16.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Female",
+                      "REGION": "Western Pacific",
+                      "YEAR": "2000"
+                    },
+             "Value": "16.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Africa",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2010"
+                    },
+             "Value": "12.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "Africa",
+                      "YEAR": "2016"
+                    },
+             "Value": "12.5"
+           },
+           {
+             "dim": {
+                      "YEAR": "2005",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "12.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2015",
+                      "SEX": "Both sexes",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "13.2"
+           },
+           {
+             "dim": {
+                      "REGION": "Europe",
+                      "YEAR": "2015",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "17.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "South-East Asia",
+                      "SEX": "Both sexes",
+                      "YEAR": "2000",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "11.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "South-East Asia",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2010"
+                    },
+             "Value": "12.7"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "YEAR": "2010",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "Global"
+                    },
+             "Value": "15.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "REGION": "Global",
+                      "YEAR": "2016",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "15.8"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2000",
+                      "REGION": "Africa",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "43.5"
+           },
+           {
+             "dim": {
+                      "SEX": "Male",
+                      "YEAR": "2016",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Eastern Mediterranean",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "59.1"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Europe",
+                      "YEAR": "2000",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "61.2"
+           },
+           {
+             "dim": {
+                      "REGION": "Europe",
+                      "SEX": "Male",
+                      "YEAR": "2005",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "62.2"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Europe",
+                      "YEAR": "2010",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "64.3"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Male",
+                      "YEAR": "2000",
+                      "REGION": "Western Pacific",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "64.0"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2005",
+                      "SEX": "Male",
+                      "REGION": "Western Pacific",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "65.7"
+           },
+           {
+             "dim": {
+                      "YEAR": "2010",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Western Pacific",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "66.7"
+           },
+           {
+             "dim": {
+                      "YEAR": "2015",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Male",
+                      "REGION": "Western Pacific",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "67.5"
+           },
+           {
+             "dim": {
+                      "SEX": "Male",
+                      "REGION": "Western Pacific",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2016",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "67.7"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2010",
+                      "SEX": "Female",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Eastern Mediterranean"
+                    },
+             "Value": "59.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Female",
+                      "YEAR": "2015"
+                    },
+             "Value": "60.1"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2016",
+                      "SEX": "Female",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)"
+                    },
+             "Value": "60.4"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2000",
+                      "REGION": "Europe",
+                      "SEX": "Female"
+                    },
+             "Value": "67.3"
+           },
+           {
+             "dim": {
+                      "REGION": "Global",
+                      "SEX": "Female",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2016",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "64.8"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2000",
+                      "REGION": "Western Pacific",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "66.5"
+           },
+           {
+             "dim": {
+                      "YEAR": "2005",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Female",
+                      "REGION": "Western Pacific",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "68.1"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Female",
+                      "REGION": "Western Pacific",
+                      "YEAR": "2010",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "69.1"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Eastern Mediterranean",
+                      "YEAR": "2005",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)"
+                    },
+             "Value": "57.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Both sexes",
+                      "YEAR": "2010",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)"
+                    },
+             "Value": "58.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "YEAR": "2015",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Eastern Mediterranean"
+                    },
+             "Value": "59.4"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Eastern Mediterranean",
+                      "YEAR": "2016",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "59.7"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Global",
+                      "YEAR": "2010",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)"
+                    },
+             "Value": "61.7"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Global",
+                      "YEAR": "2015"
+                    },
+             "Value": "63.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Global",
+                      "YEAR": "2016"
+                    },
+             "Value": "63.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Western Pacific",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2000",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "65.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "Americas",
+                      "SEX": "Male",
+                      "YEAR": "2016"
+                    },
+             "Value": "16.4"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2000",
+                      "REGION": "Eastern Mediterranean"
+                    },
+             "Value": "12.1"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2005",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Male"
+                    },
+             "Value": "12.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2010",
+                      "REGION": "Eastern Mediterranean"
+                    },
+             "Value": "12.7"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2005",
+                      "SEX": "Male",
+                      "REGION": "Global",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "13.7"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2010",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "Global",
+                      "SEX": "Male"
+                    },
+             "Value": "14.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2015",
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "Global"
+                    },
+             "Value": "14.7"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Global",
+                      "YEAR": "2016",
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "14.8"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2010",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Female",
+                      "REGION": "Americas"
+                    },
+             "Value": "18.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Female",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2015",
+                      "REGION": "Americas"
+                    },
+             "Value": "18.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Female",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "Americas",
+                      "YEAR": "2016"
+                    },
+             "Value": "18.7"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Female",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2000"
+                    },
+             "Value": "12.7"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Female",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2005"
+                    },
+             "Value": "12.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2016",
+                      "SEX": "Female",
+                      "REGION": "South-East Asia"
+                    },
+             "Value": "13.9"
+           },
+           {
+             "dim": {
+                      "REGION": "Global",
+                      "YEAR": "2000",
+                      "SEX": "Female",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "15.4"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Female",
+                      "YEAR": "2005",
+                      "REGION": "Global"
+                    },
+             "Value": "15.8"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2010",
+                      "REGION": "Global",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "16.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2005",
+                      "REGION": "Americas",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "16.6"
+           },
+           {
+             "dim": {
+                      "REGION": "Americas",
+                      "YEAR": "2010",
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "17.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Americas",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2015"
+                    },
+             "Value": "17.5"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "REGION": "Americas",
+                      "YEAR": "2016",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "17.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2015",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "South-East Asia"
+                    },
+             "Value": "13.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2016",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "13.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "Global",
+                      "YEAR": "2000"
+                    },
+             "Value": "14.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Both sexes",
+                      "REGION": "Global",
+                      "YEAR": "2005"
+                    },
+             "Value": "14.8"
+           },
+           {
+             "dim": {
+                      "REGION": "Americas",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Male",
+                      "YEAR": "2000",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "62.6"
+           },
+           {
+             "dim": {
+                      "SEX": "Male",
+                      "YEAR": "2005",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Americas",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "63.8"
+           },
+           {
+             "dim": {
+                      "REGION": "Americas",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Male",
+                      "YEAR": "2010",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "64.1"
+           },
+           {
+             "dim": {
+                      "YEAR": "2015",
+                      "REGION": "Americas",
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "65.3"
+           },
+           {
+             "dim": {
+                      "YEAR": "2016",
+                      "REGION": "Americas",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "65.5"
+           },
+           {
+             "dim": {
+                      "REGION": "South-East Asia",
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2010",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "57.9"
+           },
+           {
+             "dim": {
+                      "REGION": "South-East Asia",
+                      "YEAR": "2015",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "59.2"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2016",
+                      "SEX": "Male",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "59.5"
+           },
+           {
+             "dim": {
+                      "REGION": "Global",
+                      "YEAR": "2000",
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "57.2"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Africa",
+                      "SEX": "Female",
+                      "YEAR": "2016",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "54.9"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Female",
+                      "REGION": "Americas",
+                      "YEAR": "2000",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "67.1"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2005",
+                      "REGION": "Americas"
+                    },
+             "Value": "68.1"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Americas",
+                      "SEX": "Female",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2010"
+                    },
+             "Value": "68.4"
+           },
+           {
+             "dim": {
+                      "REGION": "South-East Asia",
+                      "SEX": "Female",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2000",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "55.1"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2005",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "56.9"
+           },
+           {
+             "dim": {
+                      "REGION": "South-East Asia",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2010",
+                      "SEX": "Female",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "59.0"
+           },
+           {
+             "dim": {
+                      "SEX": "Female",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2015",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "60.9"
+           },
+           {
+             "dim": {
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "South-East Asia",
+                      "SEX": "Female",
+                      "YEAR": "2016",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Value": "61.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2010",
+                      "REGION": "Africa"
+                    },
+             "Value": "50.4"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "YEAR": "2015",
+                      "REGION": "Africa",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)"
+                    },
+             "Value": "53.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "Africa",
+                      "SEX": "Both sexes",
+                      "YEAR": "2016"
+                    },
+             "Value": "53.8"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "SEX": "Both sexes",
+                      "REGION": "Americas",
+                      "YEAR": "2000"
+                    },
+             "Value": "64.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2016",
+                      "REGION": "Europe"
+                    },
+             "Value": "68.4"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2000"
+                    },
+             "Value": "54.8"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)",
+                      "YEAR": "2005",
+                      "REGION": "South-East Asia"
+                    },
+             "Value": "56.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2010",
+                      "REGION": "South-East Asia",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at birth (years)"
+                    },
+             "Value": "58.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "Africa",
+                      "YEAR": "2005"
+                    },
+             "Value": "10.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Africa",
+                      "SEX": "Male",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2010"
+                    },
+             "Value": "11.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Male",
+                      "REGION": "Africa",
+                      "YEAR": "2015"
+                    },
+             "Value": "11.8"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2016",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "Africa",
+                      "SEX": "Male"
+                    },
+             "Value": "12.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2010",
+                      "REGION": "Europe",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Male"
+                    },
+             "Value": "15.1"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Europe",
+                      "YEAR": "2015",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Male"
+                    },
+             "Value": "15.7"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2016",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Male",
+                      "REGION": "Europe"
+                    },
+             "Value": "15.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Male",
+                      "YEAR": "2000",
+                      "REGION": "South-East Asia"
+                    },
+             "Value": "11.4"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "South-East Asia",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2005",
+                      "SEX": "Male"
+                    },
+             "Value": "11.8"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Western Pacific",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2016",
+                      "SEX": "Male"
+                    },
+             "Value": "15.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Female",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "Africa",
+                      "YEAR": "2000"
+                    },
+             "Value": "11.4"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "Africa",
+                      "SEX": "Female",
+                      "YEAR": "2005"
+                    },
+             "Value": "11.8"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2010",
+                      "REGION": "Africa",
+                      "SEX": "Female",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "12.4"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Europe",
+                      "SEX": "Female",
+                      "YEAR": "2005",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "17.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Female",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2010",
+                      "REGION": "Europe"
+                    },
+             "Value": "18.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2015",
+                      "REGION": "Europe",
+                      "SEX": "Female",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "18.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2016",
+                      "SEX": "Female",
+                      "REGION": "Europe"
+                    },
+             "Value": "18.7"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Western Pacific",
+                      "SEX": "Female",
+                      "YEAR": "2010",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "17.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Western Pacific",
+                      "SEX": "Female",
+                      "YEAR": "2015",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "17.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "Western Pacific",
+                      "YEAR": "2016",
+                      "SEX": "Female"
+                    },
+             "Value": "17.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "YEAR": "2000",
+                      "REGION": "Africa",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "11.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2005",
+                      "REGION": "Africa"
+                    },
+             "Value": "11.4"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "SEX": "Both sexes",
+                      "REGION": "Eastern Mediterranean",
+                      "YEAR": "2016"
+                    },
+             "Value": "13.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Europe",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2000"
+                    },
+             "Value": "15.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2005",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "REGION": "Europe",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "15.8"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2010",
+                      "REGION": "Europe"
+                    },
+             "Value": "16.7"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2005",
+                      "REGION": "Western Pacific",
+                      "SEX": "Both sexes"
+                    },
+             "Value": "15.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "YEAR": "2010",
+                      "REGION": "Western Pacific",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "16.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)",
+                      "YEAR": "2015",
+                      "REGION": "Western Pacific"
+                    },
+             "Value": "16.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Western Pacific",
+                      "SEX": "Both sexes",
+                      "YEAR": "2016",
+                      "GHO": "Healthy life expectancy (HALE) at age 60 (years)"
+                    },
+             "Value": "16.6"
+           }
+          ]
+}

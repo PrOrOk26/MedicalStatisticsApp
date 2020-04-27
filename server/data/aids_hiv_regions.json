@@ -1,0 +1,85 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 }
+               ],
+  "regions": [
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Estimated number of people (all ages) living with HIV",
+                      "REGION": "Africa",
+                      "YEAR": "2018"
+                    },
+             "Value": "25 700 000 [22 200 000 - 29 500 000]"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2018",
+                      "REGION": "Western Pacific",
+                      "GHO": "Estimated number of people (all ages) living with HIV"
+                    },
+             "Value": "1 900 000 [1 700 000 - 2 100 000]"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2018",
+                      "REGION": "Americas",
+                      "GHO": "Estimated number of people (all ages) living with HIV"
+                    },
+             "Value": "3 500 000 [3 000 000 - 4 200 000]"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Estimated number of people (all ages) living with HIV",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2018"
+                    },
+             "Value": "3 800 000 [3 100 000 - 4 900 000]"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Estimated number of people (all ages) living with HIV",
+                      "YEAR": "2018",
+                      "REGION": "Global"
+                    },
+             "Value": "37 900 000 [32 700 000 - 44 000 000]"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Eastern Mediterranean",
+                      "YEAR": "2018",
+                      "GHO": "Estimated number of people (all ages) living with HIV"
+                    },
+             "Value": "400 000 [290 000 - 570 000]"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2018",
+                      "REGION": "Europe",
+                      "GHO": "Estimated number of people (all ages) living with HIV"
+                    },
+             "Value": "2 500 000 [2 300 000 - 2 800 000]"
+           }
+          ]
+}
