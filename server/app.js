@@ -1,13 +1,29 @@
-const express = require('express')
-const app = express()
-const port = 2699
-const init = require('./init.js').initDatabase
+const express = require("express");
+const app = express();
+const port = 2699;
+const dataRouter = require("./routers/data.js");
 
-const aids = require("./api/aidsHiv").aids;
+const { uri, dbName, collectionNames } = require("./constants.js");
 
-init()
+/* const mongoose = require("mongoose");
+mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
-app.get('/', (req, res) => res.send('Hello World!'))
-app.get('/aids', aids)
+const dbConnection = mongoose.connection;
+dbConnection.on("error", console.error.bind(console, "connection error"));
+dbConnection.once("open", function () {
+  console.log("Mongoose connected to our cloud db");
+}); */
 
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
+app.get("/", function (req, res) {
+  res.send("This is a working root path!");
+});
+
+app.use("/data", dataRouter);
+
+app.get("*", function (req, res) {
+  res.status(400).send('Bad Request')
+});
+
+app.listen(port, () =>
+  console.log(`MedicalStatisticsApp app listening at http://localhost:${port}`)
+);
