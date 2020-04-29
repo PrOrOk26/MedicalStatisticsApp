@@ -1,5 +1,6 @@
 const express = require("express");
 const dataRouter = express.Router();
+dataRouter.use(express.json({ type: "application/json" }));
 
 const { uri, dbName } = require("../constants.js");
 
@@ -12,8 +13,6 @@ async function run() {
 
   console.log("Connected successfully to server");
   const db = client.db(dbName);
-
-  dataRouter.use(express.json({ type: "application/json" }));
 
   dataRouter.get("/aids", async function (req, res) {
     const { by = "country" } = req.query;

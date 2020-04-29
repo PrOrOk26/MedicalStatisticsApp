@@ -1,10 +1,9 @@
 const readJsonFileAsync = require("./utils/readJsonFileAsync.js")
   .readJsonFileAsync;
 
+const { dbName, collectionNames, uri } = require("./constants.js");
 const MongoClient = require("mongodb").MongoClient;
 const client = new MongoClient(uri);
-
-const { dbName, collectionNames, uri } = require("./constants.js");
 
 module.exports.initDatabase = async function () {
   try {
@@ -24,4 +23,3 @@ module.exports.initDatabase = async function () {
     await client.close();
   }
 };
-

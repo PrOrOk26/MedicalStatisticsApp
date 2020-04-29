@@ -21,7 +21,7 @@ app.get("/", function (req, res) {
 app.use("/data", dataRouter);
 
 app.get("*", function (req, res) {
-  res.status(400).send('Bad Request')
+  res.status(400).send("Bad Request");
 });
 
 app.listen(port, () =>
