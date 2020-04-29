@@ -1,9 +1,12 @@
-const express = require("express");
+const path = require('path')
+const express = require("express")
 const app = express();
 const port = 2699;
-const dataRouter = require("./routers/data.js");
+const dataRouter = require("./routers/data.js")
 
-const { uri, dbName, collectionNames } = require("./constants.js");
+const clientBuildPath = '../client/dist'
+
+const { uri, dbName, collectionNames } = require("./constants.js")
 
 /* const mongoose = require("mongoose");
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
@@ -14,8 +17,10 @@ dbConnection.once("open", function () {
   console.log("Mongoose connected to our cloud db");
 }); */
 
+app.use(express.static(path.join(__dirname, clientBuildPath)));
+
 app.get("/", function (req, res) {
-  res.send("This is a working root path!");
+  res.sendFile(path.join(__dirname, clientBuildPath, 'index.html'));
 });
 
 app.use("/data", dataRouter);
