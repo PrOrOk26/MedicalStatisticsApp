@@ -14,8 +14,6 @@ export function AidsComponent() {
     })();
   }, []);
 
-  debugger;
-
   return (
     <>
       <p>{data.length ? JSON.stringify(data) : "No data"}</p>
