@@ -141,11 +141,10 @@ h1 {
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 h2 {
   font: 500 40px/48px "futura-pt-condensed", sans-serif;
-  text-transform: uppercase;
   color: #000;
 }
 h4 {
@@ -173,4 +172,9 @@ a {
   height: 30px;
   width: 30px;
   margin: 30px auto;
+}
+
+main {
+  padding: 4rem;
+  width: 100%;
 }

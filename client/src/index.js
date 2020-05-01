@@ -7,5 +7,5 @@ import './index.scss';
 
 ReactDOM.render(
   <App/>,
-  document.getElementsByClassName('container')[0]
+  document.getElementsByClassName('m-container')[0]
 );

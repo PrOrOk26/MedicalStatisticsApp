@@ -5,15 +5,17 @@ import { AidsComponent } from "./AidsComponent/AidsComponent.js";
 
 export function App() {
   return (
-    <Router>
-      <Switch>
-        <Route exact path="/">
-          <Landing />
-        </Route>
-        <Route path="/aids">
-          <AidsComponent />
-        </Route>
-      </Switch>
-    </Router>
+    <main>
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Landing />
+          </Route>
+          <Route path="/aids">
+            <AidsComponent />
+          </Route>
+        </Switch>
+      </Router>
+    </main>
   );
 }
