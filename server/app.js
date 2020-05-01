@@ -3,6 +3,12 @@ const express = require("express")
 const app = express();
 const port = 2699;
 const dataRouter = require("./routers/data.js")
+const cors = require('cors')
+
+var corsOptions = {
+  origin: 'http://localhost:8080/',
+  optionsSuccessStatus: 200,
+}
 
 const clientBuildPath = '../client/dist'
 
@@ -16,6 +22,8 @@ dbConnection.on("error", console.error.bind(console, "connection error"));
 dbConnection.once("open", function () {
   console.log("Mongoose connected to our cloud db");
 }); */
+
+app.use(cors());
 
 app.use(express.static(path.join(__dirname, clientBuildPath)));
 
