@@ -145,6 +145,7 @@ h1 {
 }
 h2 {
   font: 500 40px/48px "futura-pt-condensed", sans-serif;
+  margin-bottom: 30px;
   color: #000;
 }
 h4 {
@@ -174,7 +175,49 @@ a {
   margin: 30px auto;
 }
 
-main {
-  padding: 4rem;
-  width: 100%;
+.m-container {
+  main {
+    padding: 4rem;
+    width: 100%;
+  }
+  .m-tooltip {
+    position: relative;
+    display: inline-block;
+
+    .tooltiptext {
+      visibility: hidden;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 6px;
+
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+      left: 50%;
+      margin-left: -60px;
+
+      opacity: 0;
+      transition: opacity 1s;
+
+      &::after {
+        content: " ";
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent #555 transparent;
+      }
+    }
+
+    &:hover {
+      .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
 }

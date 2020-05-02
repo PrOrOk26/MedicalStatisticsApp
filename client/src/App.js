@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Landing } from "./Landing/Landing.js";
 import { AidsComponent } from "./AidsComponent/AidsComponent.js";
+import { AdultMortalityComponent } from "./MortalityComponent/AdultMortalityComponent.js";
+import { ChildMortalityComponent } from "./MortalityComponent/ChildMortalityComponent.js";
 
 export function App() {
   return (
@@ -13,6 +15,12 @@ export function App() {
           </Route>
           <Route path="/aids">
             <AidsComponent />
+          </Route>
+          <Route path="/mortality/adult">
+            <AdultMortalityComponent />
+          </Route>
+          <Route path="/mortality/child">
+            <ChildMortalityComponent />
           </Route>
         </Switch>
       </Router>
