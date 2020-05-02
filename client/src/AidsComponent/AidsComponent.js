@@ -62,7 +62,7 @@ export function AidsComponent() {
   }, []);
 
   return (
-    <>
+    <main>
       <h1>Estimated number of people (all ages) living with HIV</h1>
       <h2>Plots</h2>
       <div className="plot">
@@ -128,6 +128,6 @@ export function AidsComponent() {
           <Spinner />
         )}
       </div>
-    </>
+    </main>
   );
 }

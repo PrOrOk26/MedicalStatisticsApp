@@ -8,7 +8,7 @@ import { LifeExpectancyComponent } from "./LifeExpectancyComponent/LifeExpectanc
 
 export function App() {
   return (
-    <main>
+    <>
       <Router>
         <Switch>
           <Route exact path="/">
@@ -28,6 +28,6 @@ export function App() {
           </Route>
         </Switch>
       </Router>
-    </main>
+    </>
   );
 }

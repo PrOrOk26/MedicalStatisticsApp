@@ -38,7 +38,7 @@ export function LifeExpectancyComponent() {
   }, []);
 
   return (
-    <>
+    <main>
       <h1 className="mortality-h">Life expectancy at birth (years)</h1>
       <h2>Regions</h2>
       <div className="table-container">
@@ -69,6 +69,6 @@ export function LifeExpectancyComponent() {
           <Spinner />
         )}
       </div>
-    </>
+    </main>
   );
 }

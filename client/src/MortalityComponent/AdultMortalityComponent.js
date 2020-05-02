@@ -28,7 +28,7 @@ export function AdultMortalityComponent() {
   }, []);
 
   return (
-    <>
+    <main>
       <div className="m-tooltip">
         <h1 className="mortality-h">Adult mortality rate</h1>
         <span className="tooltiptext">
@@ -66,6 +66,6 @@ export function AdultMortalityComponent() {
           <Spinner />
         )}
       </div>
-    </>
+    </main>
   );
 }

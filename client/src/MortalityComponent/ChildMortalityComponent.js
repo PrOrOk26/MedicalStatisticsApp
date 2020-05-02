@@ -32,7 +32,7 @@ export function ChildMortalityComponent() {
   }, []);
 
   return (
-    <>
+    <main>
       <div className="m-tooltip">
         <h1 className="mortality-h">Children mortality rate</h1>
         <span className="tooltiptext">
@@ -99,6 +99,6 @@ export function ChildMortalityComponent() {
           <Spinner />
         )}
       </div>
-    </>
+    </main>
   );
 }
