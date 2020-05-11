@@ -1,18 +1,17 @@
-const path = require('path')
-const express = require("express")
-const app = express();
-const port = 2699;
-const dataRouter = require("./routers/data.js")
-const cors = require('cors')
+const path       = require('path'),
+      express    = require("express"),
+      app        = express(),
+      port       = 2699,
+      dataRouter = require("./routers/data.js"),
+      cors       = require('cors');
 
 var corsOptions = {
   origin: 'http://localhost:8080/',
   optionsSuccessStatus: 200,
 }
 
-const clientBuildPath = '../client/dist'
-
-const { uri, dbName, collectionNames } = require("./constants.js")
+const clientBuildPath                  = '../client/dist',
+      { uri, dbName, collectionNames } = require("./constants.js");
 
 /* const mongoose = require("mongoose");
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
